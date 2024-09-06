@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap/bootstrap.min.css">
+    
+</head>
+<body style="background-color: #F0FFFF	;">
+  <div class="p-3">
+  <header class="container-sm mt-5 shadow rounded p-4">
+    <nav class="nav nav-tabs img-fluid d-flex justify-content-between" id="nav-tab" role="tablist">
+        <a class="nav-link active text-secondary font-bold" id="nav-about-tab" data-bs-toggle="tab" href="#nav-about" role="tab" aria-controls="nav-home" aria-selected="true">About Me</a>
+        <a class="nav-link text-secondary font-bold" id="nav-hobbies-tab" data-bs-toggle="tab" href="#nav-hobbies" role="tab" aria-controls="nav-hobbies" aria-selected="false">Hobbies</a>  
+        <a class="nav-link text-secondary font-bold" id="nav-favorite-tab" data-bs-toggle="tab" href="#nav-favorite" role="tab" aria-controls="nav-favorite" tabindex="-1" aria-selected="false">Favorite Games</a>
+    </nav>
+  </header>
+  <main class="container-sm">
+      <div class="tab-content container-sm mt-3" id="nav-tabContent">
+        <div class="tab-pane fade show active mt-5" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
+            <div class="row gap-3 ms-5">
+                <div class="col-sm-4 p-4">
+                    <h2 class="text-weight text-black mb-2 fw-light">About Me</h2>
+                    <img src="/images/6.jpg" class="img-fluid rounded" alt="">
+                </div>
+                <div class="col-sm p-4 mt-3">
+                    <h1 class="fs-6 fst-italic mt-5 fw-light">Name: <span>Niko Polistico</span></h1><br>
+                    <h1 class="fs-6 fst-italic fw-light">Age: <span>21</span></h1><br>
+                    <h1 class="fs-6 fst-italic fw-light">Address: <span>Mahay Butuan City</span></h1><br>
+                    <h1 class="fs-6 fst-italic fw-light">Status: <span>Single</span></h1><br>
+                    <h1 class="fs-6 fst-italic fw-light">Contact: <span>09676595166</span></h1>
+                </div>
+                <div class="col-sm-4 ">
+                    <h2 class="fw-light mb-2">My Sports</h2>
+                    <img src="/images/8.jpg" class="rounded-circle w-50 img-thumbnail" alt="pic1">
+                    <img src="/images/9.jpg" class="rounded-circle w-50 img-thumbnail" alt="pic1">
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="nav-hobbies" role="tabpanel" aria-labelledby="nav-hobbies-tab">
+            <div class="row gap-3 d-flex justify-content-center">
+                <div class="col-sm-5 bg-transparent border border-black p-4">
+                    <box-icon name='camera-movie'></box-icon>
+                    <h2 class="text-weight text-black">Photography</h2>
+                    <p class="text-weight text-black">I love capturing moments and expressing creativity through the lens.</p>
+                </div>
+                <div class="col-sm-5 bg-transparent border border-black p-4">
+                    <box-icon name='cycling'></box-icon>
+                    <h2 class="text-bold text-black">Cycling</h2>
+                    <p class="text-weight text-black">Cycling keeps me fit and lets me explore new places while enjoying the outdoors.</p>
+                </div>
+                <div class="col-sm-5 bg-transparent border border-black p-4 ">
+                    <box-icon type='logo' name='javascript'></box-icon>
+                    <h1 class="text-bold text-black">Programming</h1>
+                    <p class="text-weight text-black">Coding is a passion that helps me solve problems and create applications.</p>
+                </div>
+                <div class="col-sm-5 bg-transparent border border-black p-4 ">
+                    <box-icon name='briefcase'></box-icon>
+                    <h1 class="text-bold text-black">Traveling</h1>
+                    <p class="text-weight text-black">I enjoy exploring new cultures and places, meeting new people along the way.</p>
+                </div>
+                <div class="col-sm-5 bg-transparent border border-black p-4 ">
+                    <box-icon type='logo' name='steam'></box-icon>
+                    <h1 class="text-bold text-black">Gaming</h1>
+                    <p class="text-weight text-black">Gaming is my way of unwinding and experiencing interactive storytelling.</p>
+                </div>
+                <div class="col-sm-5 bg-transparent border border-black p-4 mb-2 ">
+                    <box-icon name='music'></box-icon>
+                    <h1 class="text-bold text-black">Music</h1>
+                    <p class="text-weight text-black">Music allows me to express my emotions and find inspiration in melodies.</p>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade mt-5 " id="nav-favorite" role="tabpanel" aria-labelledby="nav-favorite-tab">
+            <h1 class="text-weight text-black text-center">MY FAVORITE GAMES</h1>
+            <div class="container-sm bg-transparent border border-black-2 rounded-2 p-4 mt-5">
+                <div class="row ">
+                    <div class="col-sm-3">
+                      <img src="/images/1.png" class="img-thumbnail rounded-2" alt="">
+                    </div>
+                    <div class="col-sm-3 ">
+                        <img src="/images/2.png" class="img-thumbnail rounded-2" alt="">
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="/images/3.png" class="img-thumbnail rounded-2" alt="">
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="/images/7.png" class="img-thumbnail rounded-2" alt="">
+                    </div>
+                  </div>
+                </div>
+        </div>
+      </div>
+      </main>
+      <footer class="bg-dark text-white text-center">
+        <p class="fw-light">&copy; 2024 Your Company Name. All rights reserved.</p>
+        <p>
+          <a href="#" class="text-white me-2 fw-light">Privacy Policy</a> |
+          <a href="#" class="text-white ms-2 fw-light">Terms of Service</a>
+        </p>
+      </footer>      
+   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>  
+    <script src="/bootstrap/bootstrap.bundle.js"></script>
+    <script src="/bootstrap/bootstrap.min.js"></script>
+</body>
+</html>
